@@ -1,0 +1,14 @@
+.footer {
+    padding-top: 100px;
+    color: #282c34;
+    align-items: center;
+}
+
+.unordered {
+    list-style: None;
+    display: flex;
+}
+
+.list{
+    flex: 1;
+}

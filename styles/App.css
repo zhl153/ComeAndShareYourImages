@@ -1,0 +1,62 @@
+@import '../../node_modules/antd/dist/antd.css';
+@import 'Register.css';
+@import 'Main.css';
+@import 'Login.css';
+@import 'TopBar.css';
+@import "Home.css";
+@import "AroundMarker.css";
+@import "MyLink.css";
+@import "Foot.css";
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 60px;
+  pointer-events: none;
+  float:left;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+.App-title {
+  font-weight: bold;
+  font-size: 19px;
+  float: left;
+  padding-top: 12px;
+  color: #61dafb;
+    animation-name: color-change;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+@keyframes color-change {
+    0%   {color: darkturquoise;}
+    20%  {color: red;}
+    40%  {color: orange;}
+    60% {color: yellow;}
+    80% {color: green;}
+    100% {color: darkturquoise;}
+}
+
+.App-header {
+  background-color: #282c34;
+  height:60px;
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
